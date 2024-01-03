@@ -1,0 +1,28 @@
+name: BadreCalcuter
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  sqflite: ^2.3.0
+  excel: ^2.0.0
+  shared_preferences: ^2.2.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+  - assets/data.sqlite
+  - assets/article.dbf
+  - assets/aa11.sqlite
+  - assets/data.json
